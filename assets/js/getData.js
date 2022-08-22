@@ -1,4 +1,4 @@
-const url = "https://github.com/FranBls/Animales_Salvajes.git"
+const url = "https://franbls.github.io/Animales_Salvajes/animales.json"
 const getData = async () => {
     const res = await fetch(url)
     const data = await res.json()
